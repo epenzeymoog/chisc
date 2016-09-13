@@ -1,0 +1,42 @@
+.btn {
+  background-color: $primary-btn-background;
+  border: 1.4px solid $primary-color;
+  border-radius: 4.2px;
+  color: $primary-color;
+  font-family: $rift;
+  font-weight: $regular; 
+  height: 48px;
+}
+
+.btn__primary {
+  clear: both;
+  font-size: 2rem;
+  letter-spacing: $medium-spacing;
+  width: 147px;
+}
+
+.btn__primary--small {
+  font-size: 1.6rem;
+  height: 1.6em;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+
+  @media #{$medium} {
+    font: $body-font;
+    font-family: $rift;
+    font-weight: $bold;
+    height: 1.8em;
+    letter-spacing: $small-spacing;
+    width: 88px;
+  } 
+}
+
+.btn__tertiary {
+  background-color: $secondary-btn-background;
+  border-radius: 5.6px;
+  font-size: 19.6px;
+  height: 33px;
+  vertical-align: top;
+  width: 82px; 
+}

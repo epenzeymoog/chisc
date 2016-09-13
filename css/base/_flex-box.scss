@@ -1,0 +1,27 @@
+header, footer, body{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+
+  @media #{$large} {
+   display: block;
+   justify-content: center;
+   width: 800px;
+  }
+}
+
+.flex-box{
+  flex-direction: column;
+    
+    @media #{$medium} {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}

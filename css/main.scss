@@ -1,0 +1,17 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "base/reset";
+@import "base/typography";
+@import "base/variables";
+@import "base/utilities";
+@import "base/base";
+@import "base/flex-box";
+@import "components/about";
+@import "components/buttons";
+@import "components/email-sign-up";
+@import "components/event";
+@import "components/footer";
+@import "components/hero";
+@import "components/navigation";
